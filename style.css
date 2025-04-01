@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    gap: 0;
+}
+
+.main-section {
+    background: url('https://images.unsplash.com/photo-1694875546238-67cb3596adf1?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logo1 {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo1 img {
+    max-width: 100%;  
+    width: 400px;     
+    height: auto;     
+    display: block;
+}
+
+h2 {
+    margin-top: 50px; 
+    margin-bottom: -20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px; 
+    width: 180px; 
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
+
+.btn::before {
+    content: "Go to";
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 11px 15px;
+    background: yellow;
+    left: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+}
+
+.btn::after {
+    content: "ikea.us";
+    padding: 11px 50px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background: yellow;
+    text-align: left;
+    opacity: 0.8;
+    position: absolute;
+    left: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0;
+    height: 100vh;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-item p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.item1 { background-image: url('https://media.nationthailand.com/images/news/2019/05/23/30369896/800_b8e68dcccce9d9ec59eaacd5c46af972.jpeg'); }
+.item2 { background-image: url('https://www.ikea.com/images/c7/d2/c7d2278b7fcc38be23dd097907cf4869.jpg?f=xl'); }
+.item3 { background-image: url('https://shortrecap.co/wp-content/uploads/2019/11/IKEA_01.jpg'); }
+.item4 { background-image: url('https://zillioninnovation.com/wp-content/uploads/2020/10/Ikea-bangna-web2-1.jpg'); }
+
+.sidebar-item:hover {
+    opacity: 0.8;
+}
