@@ -40,10 +40,10 @@ export default function project() {
       <div className="w-64 p-2 border mb-2 rounded bg-blue-200 hover:bg-blue-700 hover:text-blue-50">
         Lorem idivsum, dolor sit amet consectetur adidivisicing elit. Doloribus, consequuntur.
       </div>
-      <div className="w-64 p-2 border mb-2 rounded bg-blue-600 hover:bg-blue-700 hover:text-blue-50">
+      <div className="w-64 p-2 border mb-2 rounded bg-blue-600 ">
         Lorem idivsum, dolor sit amet consectetur adidivisicing elit. Doloribus, consequuntur.
       </div>
-      <div className="w-64 p-2 border rounded bg-red-300 hover:bg-black-700 hover:text-blue-50">
+      <div className="w-64 p-2 border rounded bg-red-300 ">
         Lorem idivsum, dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur.
       </div>
     </div>
