@@ -5,13 +5,11 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'computing.psu.ac.th',
-        pathname: '/**',
+        hostname: 'plus.unsplash.com',
       },
       {
         protocol: 'https',
-        hostname: 'img.advice.co.th',
-        pathname: '/**',
+        hostname: 'images.unsplash.com',
       },
     ],
   },

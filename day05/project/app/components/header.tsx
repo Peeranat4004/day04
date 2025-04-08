@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function Header() {
     return(
         <header><h1
             className="bg-amber-200">

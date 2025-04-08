@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+}
+
+.card h2 {
+    color: aliceblue;
+    margin-top: -10em;
+}
+
+.card p {
+    color: white;
+    margin-top: -5em;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1em;
+}
+
+.icon {
+    display: flex;
+}
+
+.borgor {
+    display: none;
+    padding: 1em;
+    font-size: 1.4em;
+  }
+  
+  .line {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1.6em;
+    height: 0.17em;
+    background: rgb(0, 0, 0);
+    margin: 0 8px 8px 0;
+    border-radius: 4px;
+  }
+
+.nav-bar {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3f4f6;
+    padding: 1em;
+}
+
+.desk-nav {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 1.2em;
+    gap: 1em;
+}
+  
+
+.category {
+    background: #f3f4f6;
+    margin-top: -1em;
+}
+
+.category h2{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2em;
+  }
+
+  .category p{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  p {
+    padding: 1em;
+    color: black;
+  }
+
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5em;  
+    color: #7d6bb0;
+  }
+
+
+.road {
+  background: #7d6bb0;
+  background-position: center;
+  padding: 1em;
+  min-height: 26em;
+  display: flex;
+  align-items: center;
+  margin: 0.5em;
+}
+.road-words {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+  }
+  
+.road-words h3 ,h1 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-top: 1rem;
+    font-size: 3rem;
+    margin-left: 10.5rem;
+    padding-left: 0.3em;
+    height: 30px;
+  }
+  
+.road-words p{
+    font-family: "Open Sans", sans-serif;
+    padding-left: 0.7em;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 11rem;
+  }
+
+  button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.5rem;
+    background: white;
+    color: #7d6bb0;
+    padding: 1px;
+    width: 15%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 11.5rem;
+    border-radius: 5px;
+  }
+
+
+.floating-cloud img {
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: -17rem;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    rotate: 4deg;
+  }
+
+
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
+  
+  .gallery img {
+    width: 100%;    
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+
+
+.foot{
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    padding: 1em;
+    color: white;
+    border: 2px solid black;
+    background: black;
+    margin-top: 20em;
+}
+
+.foot h4{
+    font-family: "Open Sans", sans-serif;
+    margin-left: -1em;
+}
+
+.foot2 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background: #3a3c40;
+}
+
+
+@media screen and (max-width: 770px) {
+    .road-words {
+        text-align: left;
+}
+    .borgor {
+            display: flex;
+    }
+    .desk-nav {
+        display: flex;
+    }
+    .icon {
+        display: none;
+    }
+    .gallery {
+            grid-template-columns: 1fr 0 0 0;
+    }
+}
