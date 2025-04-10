@@ -1,6 +1,6 @@
 import B from "../components/B"
 import Footer from "../components/Footer"
-import Header from "../components/Header"
+import Header from "../components/header"
 
 export default function Property() {
 
